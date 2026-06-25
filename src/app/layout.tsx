@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Armadhani Hiro | Software Developer & AI Enthusiast",
     description:
       "Portfolio showcasing software development, AI, data, and automation projects.",
-    url: "https://armadhanihiro-dev.vercel.app",
+    url: "https://armadhanihiro.dev",
     siteName: "armadhanihiro.dev",
     images: [
       {

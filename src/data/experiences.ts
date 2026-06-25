@@ -3,7 +3,7 @@ export const experiences = [
     period: "2026 - Present",
     role: "AI Software Engineer Intern",
     company: "Demografy",
-    type: "Remote",
+    type: "Sydney, Australia",
     description: [
       "Developed an AI-powered suburb similarity engine using demographic data, embeddings, and hybrid search.",
       "Built data pipelines and interactive analytics features with BigQuery, Gemini AI, and Streamlit.",
@@ -40,7 +40,7 @@ export const experiences = [
     period: "2022",
     role: "Backend Developer Intern",
     company: "Telkom Indonesia",
-    type: "Internship",
+    type: "Jakarta, Indonesia",
     description: [
       "Developed RESTful APIs and backend services for enterprise applications.",
       "Integrated databases, implemented unit testing, and improved backend reliability.",
