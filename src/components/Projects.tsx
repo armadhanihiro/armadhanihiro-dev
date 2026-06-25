@@ -47,14 +47,14 @@ export default function Projects() {
 
                                 <div className="mt-7 flex gap-4">
                                     {project.github && (
-                                        <a href={project.github} target="_blank" className="flex items-center gap-2 text-sm">
+                                        <a href={project.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm">
                                             <FiGithub />
                                             Code
                                         </a>
                                     )}
 
                                     {project.demo && (
-                                        <a href={project.demo} target="_blank" className="flex items-center gap-2 text-sm">
+                                        <a href={project.demo} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm">
                                             <FiExternalLink />
                                             Demo
                                         </a>

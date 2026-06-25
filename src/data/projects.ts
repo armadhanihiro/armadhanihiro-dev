@@ -29,7 +29,7 @@ export const projects = [
         // Private because of company NDA
         github: null,
         demo: null,
-        caseStudy: "#",
+        caseStudy: "null",
     },
 
     {
