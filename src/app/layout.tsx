@@ -26,6 +26,29 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Armadhani Hiro" }],
   creator: "Armadhani Hiro",
+  openGraph: {
+    title: "Armadhani Hiro | Software Developer & AI Enthusiast",
+    description:
+      "Portfolio showcasing software development, AI, data, and automation projects.",
+    url: "https://armadhanihiro-dev.vercel.app",
+    siteName: "armadhanihiro.dev",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Armadhani Hiro Portfolio",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Armadhani Hiro | Software Developer & AI Enthusiast",
+    description:
+      "Portfolio showcasing software development, AI, data, and automation projects.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
