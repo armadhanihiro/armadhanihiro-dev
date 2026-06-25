@@ -5,7 +5,7 @@ const socials = [
   { icon: FaGithub, href: "https://github.com/armadhanihiro" },
   { icon: FaLinkedinIn, href: "https://linkedin.com/in/armadhanihiro" },
   { icon: FiMail, href: "mailto:hiroarmadhani@gmail.com" },
-  { icon: FiFileText, href: "#" },
+  { icon: FiFileText, href: "/documents/resume.pdf" },
 ];
 
 export default function Hero() {
@@ -37,7 +37,8 @@ export default function Hero() {
                         <a href="#projects" className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black">
                             View My Work →
                         </a>
-                        <a href="#" className="rounded-full border border-white/15 px-6 py-3 text-sm font-medium">
+                        <a href="/documents/resume.pdf" download className="rounded-full border border-white/15
+                            px-6 py-3 text-sm font-medium transition hover:bg-white hover:text-black">
                             Download CV ↓
                         </a>
                     </div>
