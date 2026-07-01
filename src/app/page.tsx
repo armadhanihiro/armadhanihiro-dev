@@ -1,11 +1,13 @@
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import Stats from "@/components/Stats";
-import TechStack from "@/components/TechStack";
-import Projects from "@/components/Projects";
-import Experience from "@/components/Experience";
+import About from "@/components/About";
 import Contact from "@/components/Contact";
+import CurrentFocus from "@/components/CurrentFocus";
+import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Highlights from "@/components/Highlights";
+import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -14,15 +16,12 @@ export default function Home() {
 
       <main>
         <Hero />
-
-        <Stats />
-
-        <TechStack />
-        
+        <CurrentFocus />
+        <About />
         <Projects />
-
         <Experience />
-
+        <Education />
+        <Highlights />
         <Contact />
       </main>
 

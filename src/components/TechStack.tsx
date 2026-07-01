@@ -1,90 +1,77 @@
-import {
-  SiReact,
-  SiNextdotjs,
-  SiTypescript,
-  SiPython,
-  SiTensorflow,
-  SiPostgresql,
-  SiDocker,
-} from "react-icons/si";
-
 import MotionSection from "@/components/MotionSection";
-
-
-const stacks = [
-  {
-    name: "React",
-    icon: SiReact,
-  },
-  {
-    name: "Next.js",
-    icon: SiNextdotjs,
-  },
-  {
-    name: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
-    name: "Python",
-    icon: SiPython,
-  },
-  {
-    name: "TensorFlow",
-    icon: SiTensorflow,
-  },
-  {
-    name: "PostgreSQL",
-    icon: SiPostgresql,
-  },
-  {
-    name: "Docker",
-    icon: SiDocker,
-  },
-];
-
+import { technologies } from "@/data/techStack";
 
 export default function TechStack() {
   return (
-    <MotionSection id="skills" className="px-6 py-28">
-        <div className="mx-auto max-w-6xl">
-            <p className="text-sm text-violet-400">
-                MY STACK
-            </p>
+    <MotionSection id="skills" className="px-6 py-24">
+      <div className="mx-auto max-w-6xl">
 
-            <h2 className="mt-3 text-4xl font-bold">
-                Technologies I Work With
-            </h2>
+        <p className="text-sm text-violet-400">
+          Tech Stack
+        </p>
 
+        <h2 className="mt-3 text-4xl font-bold">
+          Technologies I enjoy working with.
+        </h2>
 
-            <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
-                {stacks.map((stack) => {
-                    const Icon = stack.icon;
+        <p className="mt-4 max-w-2xl text-zinc-400">
+          A selection of technologies I use to build modern web,
+          AI, and data-driven applications.
+        </p>
 
+        <div className="mt-12 flex flex-wrap gap-4">
 
-                    return (
-                        <div key={stack.name} className="
-                            group
-                            rounded-2xl
-                            border border-white/10
-                            bg-white/5
-                            p-6
-                            transition
-                            hover:-translate-y-2
-                            hover:border-violet-500/50
-                            "
-                        >
+          {technologies.map((tech) => {
 
-                            <Icon className="text-3xl" />
+            const Icon = tech.icon;
 
-                            <p className="mt-5">
-                                {stack.name}
-                            </p>
-                        </div>
-                    );
-                })}
+            return (
 
-            </div>
+              <div
+                key={tech.name}
+                className="
+                  group
+                  flex
+                  items-center
+                  gap-3
+                  rounded-2xl
+                  border
+                  border-white/10
+                  bg-white/5
+                  px-5
+                  py-4
+                  backdrop-blur-xl
+                  transition-all
+                  duration-300
+                  hover:-translate-y-1
+                  hover:border-violet-500/40
+                  hover:bg-white/10
+                "
+              >
+
+                <Icon
+                  size={22}
+                  className="
+                    text-violet-400
+                    transition-transform
+                    duration-300
+                    group-hover:scale-110
+                  "
+                />
+
+                <span className="text-sm font-medium text-zinc-200">
+                  {tech.name}
+                </span>
+
+              </div>
+
+            );
+
+          })}
+
         </div>
+
+      </div>
     </MotionSection>
   );
 }

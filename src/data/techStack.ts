@@ -1,0 +1,61 @@
+import {
+  SiPython,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+  SiJavascript,
+  SiNodedotjs,
+  SiFastapi,
+  SiLaravel,
+  SiTensorflow,
+  SiScikitlearn,
+  SiPandas,
+  SiNumpy,
+  SiPostgresql,
+  SiMysql,
+  SiDocker,
+  SiGit,
+  SiGithub,
+  SiVercel,
+  SiFigma,
+  SiPostman,
+  SiBootstrap,
+  SiFirebase,
+  SiStreamlit,
+} from "react-icons/si";
+
+import { TbBrandGolang } from "react-icons/tb";
+import { FaDatabase } from "react-icons/fa";
+
+export const technologies = [
+  { name: "Python", icon: SiPython },
+  { name: "React", icon: SiReact },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Go", icon: TbBrandGolang },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "FastAPI", icon: SiFastapi },
+  { name: "Laravel", icon: SiLaravel },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
+  { name: "Bootstrap", icon: SiBootstrap },
+
+  { name: "TensorFlow", icon: SiTensorflow },
+  { name: "Scikit-learn", icon: SiScikitlearn },
+  { name: "Pandas", icon: SiPandas },
+  { name: "NumPy", icon: SiNumpy },
+
+  { name: "PostgreSQL", icon: SiPostgresql },
+  { name: "MySQL", icon: SiMysql },
+  { name: "Firebase", icon: SiFirebase },
+  { name: "SQL", icon: FaDatabase },
+
+  { name: "Git", icon: SiGit },
+  { name: "GitHub", icon: SiGithub },
+  { name: "Docker", icon: SiDocker },
+  { name: "Vercel", icon: SiVercel },
+  { name: "Postman", icon: SiPostman },
+  { name: "Figma", icon: SiFigma },
+  { name: "Streamlit", icon: SiStreamlit },
+];
