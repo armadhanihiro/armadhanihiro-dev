@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    period: "2026 - Present",
+    period: "Jun 2026 - Present",
     role: "AI Software Engineer Intern",
     company: "Demografy",
     type: "Sydney, Australia",
@@ -19,7 +19,7 @@ export const experiences = [
 
 
   {
-    period: "2024",
+    period: "May 2024 - Nov 2024",
     role: "Web Developer Intern",
     company: "Quicksite Guru",
     type: "Australia",
@@ -37,8 +37,8 @@ export const experiences = [
 
 
   {
-    period: "2022",
-    role: "Backend Developer Intern",
+    period: "Jul 2023 - Dec 2023",
+    role: "Backend Developer",
     company: "Telkom Indonesia",
     type: "Jakarta, Indonesia",
     description: [

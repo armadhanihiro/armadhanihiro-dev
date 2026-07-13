@@ -38,23 +38,6 @@ export default function Hero() {
             solutions that turn real-world problems into useful digital products.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href="#projects"
-              className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:-translate-y-1 hover:bg-violet-200"
-            >
-              View Projects →
-            </a>
-
-            <a
-              href="/documents/resume.pdf"
-              download
-              className="rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-white transition hover:-translate-y-1 hover:border-violet-400 hover:bg-white/10"
-            >
-              Download CV ↓
-            </a>
-          </div>
-
           <div className="mt-8 flex gap-3">
             {socials.map((social) => {
               const Icon = social.icon;
@@ -125,11 +108,11 @@ export default function Hero() {
                 </div>
 
                 <pre className="overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-5 text-sm leading-7 text-zinc-300">
-{`const hiro = {
-  role: "Software Developer",
-  focus: ["AI", "Web", "Data"],
-  mission: "Build useful products"
-};`}
+                  {`const hiro = {
+                    role: "Software Developer",
+                    focus: ["AI", "Web", "Data"],
+                    mission: "Build useful products"
+                  };`}
                 </pre>
               </div>
             </div>
