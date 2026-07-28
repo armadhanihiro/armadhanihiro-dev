@@ -35,7 +35,7 @@ export const projects = [
     tech: ["Python", "Gemini AI", "BigQuery", "Streamlit", "Vector Search"],
     github: null,
     demo: null,
-    caseStudy: "#",
+    caseStudy: null,
   },
   {
     title: "Payslip Hours Calculator",
