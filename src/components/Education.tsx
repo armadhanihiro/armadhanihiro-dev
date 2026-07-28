@@ -17,7 +17,7 @@ export default function Education() {
             <FiBookOpen size={22} />
           </div>
 
-          <p className="text-sm text-violet-400">Education</p>
+          <p className="text-lg font-semibold text-violet-400">Education</p>
 
           <h2 className="mt-4 text-3xl font-bold">Bachelor of Informatics</h2>
 

@@ -12,6 +12,7 @@ export const projects = [
   },
   {
     title: "ECHO",
+    subtitle: "AI Emergency Coordination Platform",
     description:
       "An AI-native emergency coordination platform designed to help response teams analyse incidents, retrieve relevant procedures, and make faster operational decisions.",
     image: "/projects/echo.png",

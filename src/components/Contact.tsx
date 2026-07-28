@@ -14,7 +14,7 @@ export default function Contact() {
     <MotionSection id="contact" className="px-6 py-24">
       <div className="mx-auto grid max-w-6xl gap-8 rounded-[2rem] border border-white/10 bg-white/5 p-8 backdrop-blur-xl md:grid-cols-[1fr_0.75fr] md:p-10">
         <div>
-          <p className="text-sm text-violet-400">Contact</p>
+          <p className="text-lg font-semibold text-violet-400">Contact</p>
 
           <h2 className="mt-4 text-4xl font-bold md:text-5xl">
             Interested in working together?

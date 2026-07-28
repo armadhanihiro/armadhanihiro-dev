@@ -28,7 +28,7 @@ export default function CurrentFocus() {
   return (
     <MotionSection className="px-6 pb-16">
       <div className="mx-auto max-w-6xl">
-        <p className="text-sm text-violet-400">Current Focus</p>
+        <p className="text-lg font-semibold text-violet-400">Current Focus</p>
 
         <div className="mt-6 grid gap-4 md:grid-cols-4">
           {focusItems.map((item) => {

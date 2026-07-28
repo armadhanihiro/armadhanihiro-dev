@@ -5,7 +5,7 @@ export default function Experience() {
   return (
     <MotionSection id="experience" className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
-        <p className="text-sm text-violet-400">Experience</p>
+        <p className="text-lg font-semibold text-violet-400">Experience</p>
 
         <h2 className="mt-3 text-4xl font-bold">Professional journey.</h2>
 

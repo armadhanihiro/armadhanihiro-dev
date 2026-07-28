@@ -28,7 +28,7 @@ export default function Highlights() {
   return (
     <MotionSection id="highlights" className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
-        <p className="text-sm text-violet-400">Highlights</p>
+        <p className="text-lg font-semibold text-violet-400">Highlights</p>
 
         <h2 className="mt-3 text-4xl font-bold">Milestones worth noting.</h2>
 

@@ -6,7 +6,7 @@ export default function About() {
     <MotionSection id="about" className="px-6 py-24">
       <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
-          <p className="text-sm text-violet-400">About</p>
+          <p className="text-lg font-semibold text-violet-400">About</p>
 
           <h2 className="mt-4 text-3xl font-bold md:text-5xl">
             Building products,
@@ -29,7 +29,7 @@ export default function About() {
         <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
           <div className="flex items-end justify-between gap-6">
             <div>
-              <p className="text-sm text-violet-400">Tech Stack</p>
+              <p className="text-lg font-semibold text-violet-400">Tech Stack</p>
               <h3 className="mt-2 text-2xl font-semibold">
                 Technologies I enjoy working with.
               </h3>
