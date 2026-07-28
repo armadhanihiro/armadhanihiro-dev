@@ -11,6 +11,22 @@ export const projects = [
     caseStudy: null,
   },
   {
+    title: "ECHO",
+    description:
+      "An AI-native emergency coordination platform designed to help response teams analyse incidents, retrieve relevant procedures, and make faster operational decisions.",
+    image: "/projects/echo.png",
+    tech: [
+      "Snowflake",
+      "Cortex AI",
+      "Cortex Search",
+      "RAG",
+      "SQL",
+    ],
+    github: "https://github.com/armadhanihiro/echo",
+    demo: "https://echo-emergency.vercel.app/",
+    caseStudy: null,
+  },
+  {
     title: "Demografy AI - Suburb Lookalike Finder",
     subtitle: "AI Suburb Similarity Engine",
     description:
